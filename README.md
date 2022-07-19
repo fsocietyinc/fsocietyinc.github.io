@@ -1,1 +1,1 @@
-# FsocietyInc.github.io
+# fsocietyinc.github.io
