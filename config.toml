@@ -125,21 +125,7 @@ url = "https://twitter.com/fsocietyinc/"
 name = "LinkedIn"
 icon = "fa fa-2x fa-linkedin"
 weight = 4
-url = "https://www.linkedin.com/in/prasadchavanr/"
-
-[[params.social]]
-name = "Medium"
-icon = "fa fa-2x fa-medium"
-weight = 5
-url = "https://medium.com/@fsocietyinc"
-
-[[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+url = "https://www.linkedin.com/in/chavanprasadr/"
 
 [languages.en]
 languageName = ":uk:"
