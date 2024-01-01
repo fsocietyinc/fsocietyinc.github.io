@@ -17,7 +17,7 @@ Driven by a thirst for knowledge and innovation, I am committed to continuous im
 - **Cloud Platforms**: Azure, Google Cloud Platform (GCP)
 - **Programming Languages**: Go, Python, PowerShell, Bash
 - **Tools & Technologies**: Git, Docker, Kubernetes, Terraform, Azure DevOps
-- **Certifications**: Azure DevOps Expert, Azure Administrator, Azure Developer, Google Cloud Architect & Associate Cloud Engineer
+- **Certifications**: Certified Kubernetes Administrator, Terraform Associate 002, Azure DevOps Expert, Azure Administrator, Azure Developer, Professional Scrum Master I, Google Cloud Architect & Associate Cloud Engineer
 
 ### Approach
 
