@@ -3,13 +3,17 @@ title = "Prasad Chavan"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
-pygmentsStyle = "bw"
-pygmentsCodeFences = true
-pygmentsCodeFencesGuessSyntax = true
-enableEmoji = true
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "bw"
+
+enableTwemoji = true
 # Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+# [services.disqus]
+# shortname = "yourdiscussshortname"
 
 [params]
 author = "Prasad Chavan"
@@ -17,7 +21,7 @@ author = "Prasad Chavan"
 description = "Prasad Chavan's personal website"
 keywords = "blog,developer,personal,devops"
 info = ["DevOps Engineer", "Go | Docker | Kubernetes | Azure | GCP | Terraform"]
-avatarURL = "images/avatar.jpg"
+avatarurl = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2022
@@ -32,7 +36,7 @@ rtl = false
 # "light" (light background, dark foreground) (default)
 colorScheme = "dark"
 # Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
+hidecolorschemetoggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
@@ -105,25 +109,25 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fa fa-2x fa-github"
+icon = "fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/fsocietyinc/"
 
 [[params.social]]
 name = "Gitlab"
-icon = "fa fa-2x fa-gitlab"
+icon = "fa-brands fa-gitlab fa-2x"
 weight = 2
 url = "https://gitlab.com/fsocietyinc/"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa fa-2x fa-twitter"
+icon = "fa-brands fa-x-twitter fa-2x"
 weight = 3
 url = "https://twitter.com/fsocietyinc/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
+icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
 url = "https://www.linkedin.com/in/chavanprasadr/"
 
