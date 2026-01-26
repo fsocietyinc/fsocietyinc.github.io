@@ -143,37 +143,37 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fa-brands fa-github fa-2x"
+icon = "fa-brands fa-github"
 weight = 1
 url = "https://github.com/fsocietyinc/"
 
 [[params.social]]
 name = "Gitlab"
-icon = "fa-brands fa-gitlab fa-2x"
+icon = "fa-brands fa-gitlab"
 weight = 2
 url = "https://gitlab.com/fsocietyinc/"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
+icon = "fa-brands fa-x-twitter"
 weight = 3
 url = "https://twitter.com/fsocietyinc/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
+icon = "fa-brands fa-linkedin"
 weight = 4
 url = "https://www.linkedin.com/in/chavanprasadr/"
 
 # [[params.social]]
 # name = "Medium"
-# icon = "fa-brands fa-medium fa-2x"
+# icon = "fa-brands fa-medium"
 # weight = 5
 # url = "https://medium.com/@johndoe"
 
 # [[params.social]]
 # name = "RSS"
-# icon = "fa-solid fa-rss fa-2x"
+# icon = "fa-solid fa-rss"
 # weight = 6
 # url = "https://myhugosite.com/index.xml"
 # rel = "alternate"
