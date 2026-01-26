@@ -3,17 +3,23 @@ title = "Prasad Chavan"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
+enableEmoji = true
 
 [pagination]
-pagerSize = 20
+pagerSize = 6
 
-[markup.highlight]
-style = "bw"
-
-enableTwemoji = true
+[services]
+[services.disqus]
 # Enable Disqus comments
-# [services.disqus]
 # shortname = "yourdiscussshortname"
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
 
 [params]
 author = "Prasad Chavan"
@@ -21,13 +27,13 @@ author = "Prasad Chavan"
 description = "Prasad Chavan's personal website"
 keywords = "blog,developer,personal,devops"
 info = ["DevOps Engineer", "Python | Docker | Kubernetes | Azure | Ansible | Terraform"]
-avatarurl = "images/avatar.jpg"
+avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
 since = 2022
 # Git Commit in Footer, uncomment the line below to enable it
-# commit = "https://github.com/luizdepra/hugo-coder/tree/"
-# Right To Left, shift content direction for languagues such as Arabic
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+# Right To Left, shift content direction for languages such as Arabic
 rtl = false
 # Specify light/dark colorscheme
 # Supported values:
@@ -36,15 +42,19 @@ rtl = false
 # "light" (light background, dark foreground) (default)
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
-hidecolorschemetoggle = false
+hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
-customCSS = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"]
+customCSS = []
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
+
 # Custom JS
 customJS = []
+
+# Custom remote JS files
+customRemoteJS = []
 
 # If you want to use fathom(https://usefathom.com) for analytics, add this section
 # [params.fathomAnalytics]
@@ -55,6 +65,8 @@ customJS = []
 # [params.plausibleAnalytics]
 # domain = "example.com"
 # serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
+# outboundLinksTracking = true
+# fileDownloadsTracking = true
 
 # If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
 # [params.goatCounter]
@@ -73,9 +85,31 @@ customJS = []
 # [params.googleTagManager]
 # id = "gid"
 
+# If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
+# [params.yandexMetrika]
+# id = "gid"
+
 # If you want to use Application Insights(https://azure.com/) for analytics, add this section
 # [params.applicationInsights]
 # connectionString = "connectionString"
+
+# If you want to use microanalytics.io for analytics, add this section
+# [params.microAnalytics]
+# id = "ABCDE"
+# dnt = "false" # respect DNT tracker, "true" by default
+
+# If you want to use Pirsch(https://pirsch.io) for analytics, add this section
+# [params.pirsch]
+# code = "ABCDE"
+
+# If you want to use Umami(https://umami.is) for analytics, add this section
+# [params.umami]
+# siteID = "ABCDE"
+# scriptURL = "analytics.REGION.umami.is/SCRIPTNAME.js"
+
+# If you want to use One Dollars Stats(https://onedollarstats.com/analytics) for analytics, add this section
+# [params.onedollarstats]
+# id = "data-site-id"
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
@@ -130,6 +164,20 @@ name = "LinkedIn"
 icon = "fa-brands fa-linkedin fa-2x"
 weight = 4
 url = "https://www.linkedin.com/in/chavanprasadr/"
+
+# [[params.social]]
+# name = "Medium"
+# icon = "fa-brands fa-medium fa-2x"
+# weight = 5
+# url = "https://medium.com/@johndoe"
+
+# [[params.social]]
+# name = "RSS"
+# icon = "fa-solid fa-rss fa-2x"
+# weight = 6
+# url = "https://myhugosite.com/index.xml"
+# rel = "alternate"
+# type = "application/rss+xml"
 
 [languages.en]
 languageName = ":uk:"
