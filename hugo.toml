@@ -143,31 +143,31 @@ author = "authors"
 
 [[params.social]]
 name = "Github"
-icon = "fa-brands fa-github fa-2x"
+icon = "fa fa-brands fa-github fa-2x"
 weight = 1
 url = "https://github.com/fsocietyinc/"
 
 [[params.social]]
 name = "Gitlab"
-icon = "fa-brands fa-gitlab fa-2x"
+icon = "fa fa-brands fa-gitlab fa-2x"
 weight = 2
 url = "https://gitlab.com/fsocietyinc/"
 
 [[params.social]]
 name = "Twitter"
-icon = "fa-brands fa-x-twitter fa-2x"
+icon = "fa fa-brands fa-x-twitter fa-2x"
 weight = 3
 url = "https://twitter.com/fsocietyinc/"
 
 [[params.social]]
 name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
+icon = "fa fa-brands fa-linkedin fa-2x"
 weight = 4
 url = "https://www.linkedin.com/in/chavanprasadr/"
 
 # [[params.social]]
 # name = "Medium"
-# icon = "fa-brands fa-medium fa-2x"
+# icon = "fa fa-brands fa-medium fa-2x"
 # weight = 5
 # url = "https://medium.com/@johndoe"
 
